@@ -1,0 +1,442 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Mar 19 15:39:15 2022
+# Process ID: 28504
+# Current directory: C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.runs/synth_1
+# Command line: vivado.exe -log Datapath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+# Log file: C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.runs/synth_1/Datapath.vds
+# Journal file: C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Datapath.tcl -notrace
+Command: synth_design -top Datapath -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24248 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 572.684 ; gain = 242.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:217]
+INFO: [Synth 8-6157] synthesizing module 'PCAdder' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'PCAdder' (1#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (2#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:3]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:18]
+INFO: [Synth 8-6157] synthesizing module 'IFIDPipelineRegister' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDPipelineRegister' (4#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:50]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:62]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:85]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:62]
+INFO: [Synth 8-6157] synthesizing module 'RegRTMux' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:113]
+INFO: [Synth 8-6155] done synthesizing module 'RegRTMux' (6#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:113]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:134]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:134]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:160]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:160]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEPipelineRegister' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:171]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEPipelineRegister' (9#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:171]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (10#1) [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:217]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[31]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[30]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[29]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[28]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[27]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[26]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[25]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[24]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[23]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[22]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[21]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[20]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[19]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[18]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[17]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[16]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[15]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[14]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[13]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[12]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[11]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[10]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[9]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[8]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[1]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port pc[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 646.031 ; gain = 316.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 646.031 ; gain = 316.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 646.031 ; gain = 316.176
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "registers" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'wreg_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:89]
+WARNING: [Synth 8-327] inferring latch for variable 'm2reg_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:90]
+WARNING: [Synth 8-327] inferring latch for variable 'wmem_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:91]
+WARNING: [Synth 8-327] inferring latch for variable 'aluc_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:92]
+WARNING: [Synth 8-327] inferring latch for variable 'regrt_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:94]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 646.031 ; gain = 316.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	  33 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PCAdder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module InstructionMemory 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+Module IFIDPipelineRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+Module RegRTMux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 2     
+Module IDEXEPipelineRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'idExePipelineRegister/ealuimm_reg' into 'idExePipelineRegister/em2reg_reg' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:208]
+INFO: [Synth 8-4471] merging register 'idExePipelineRegister/eqb_reg[31:0]' into 'idExePipelineRegister/eqa_reg[31:0]' [C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.srcs/sources_1/new/Lab3.v:211]
+INFO: [Synth 8-3886] merging instance 'controlUnit/aluc_reg[0]' (LD) to 'controlUnit/aluc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'controlUnit/aluc_reg[2]' (LD) to 'controlUnit/aluc_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlUnit/aluc_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlUnit/wmem_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\controlUnit/wreg_reg )
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[0]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[1]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[2]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[3]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[4]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[5]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[6]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[7]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[8]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[9]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[10]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[11]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[12]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[13]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[14]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[15]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[16]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[17]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[18]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[19]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[20]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[21]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[22]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[23]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[24]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[25]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[26]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[27]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[28]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[29]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[30]' (FD) to 'idExePipelineRegister/eqa_reg[31]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eqa_reg[31]' (FD) to 'idExePipelineRegister/ealuc_reg[3]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/ealuc_reg[0]' (FD) to 'idExePipelineRegister/ealuc_reg[3]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/ealuc_reg[2]' (FD) to 'idExePipelineRegister/ealuc_reg[3]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/ealuc_reg[3]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/ewmem_reg' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/ewreg_reg' (FD) to 'ifIdPipelineRegister/dinstOut_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[0]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[1]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[2]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[16]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[3]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[4]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[5]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[6]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[7]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[8]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[9]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[10]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[11]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[12]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[13]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[14]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[15]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[17]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[18]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[19]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[20]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[21]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[22]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[23]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[24]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[25]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[26]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[27]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[31]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[28]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[29]' (FD) to 'ifIdPipelineRegister/dinstOut_reg[30]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ifIdPipelineRegister/dinstOut_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ifIdPipelineRegister/dinstOut_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\programCounter/pc_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\programCounter/pc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlUnit/regrt_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlUnit/aluc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\controlUnit/m2reg_reg )
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[0]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[30]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[1]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[3]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[4]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[5]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[6]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[7]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[8]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[9]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[10]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[11]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[12]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[13]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[14]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/eimm32_reg[15]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/edestReg_reg[1]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/edestReg_reg[2]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/edestReg_reg[3]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/edestReg_reg[4]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ifIdPipelineRegister/dinstOut_reg[31]' (FD) to 'idExePipelineRegister/em2reg_reg'
+INFO: [Synth 8-3886] merging instance 'idExePipelineRegister/edestReg_reg[0]' (FD) to 'idExePipelineRegister/ealuc_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\idExePipelineRegister/ealuc_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\idExePipelineRegister/em2reg_reg )
+WARNING: [Synth 8-3332] Sequential element (controlUnit/wreg_reg) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (controlUnit/m2reg_reg) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (controlUnit/wmem_reg) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (controlUnit/aluc_reg[3]) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (controlUnit/aluc_reg[1]) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (controlUnit/regrt_reg) is unused and will be removed from module Datapath.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |FDRE   |    32|
+|5     |IBUF   |     1|
+|6     |OBUF   |   173|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+----------------------+------+
+|      |Instance                |Module                |Cells |
++------+------------------------+----------------------+------+
+|1     |top                     |                      |   216|
+|2     |  idExePipelineRegister |IDEXEPipelineRegister |     1|
+|3     |  ifIdPipelineRegister  |IFIDPipelineRegister  |     1|
+|4     |  programCounter        |ProgramCounter        |    39|
++------+------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 37 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 797.527 ; gain = 467.672
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 809.574 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 911.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+138 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 911.828 ; gain = 606.816
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 911.828 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/dylco/OneDrive/Desktop/classes/Spring2022Sem/cmpen331/Lab3/Lab3/Lab3.runs/synth_1/Datapath.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Datapath_utilization_synth.rpt -pb Datapath_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 19 15:39:41 2022...
